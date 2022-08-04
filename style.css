@@ -1,0 +1,14 @@
+h1 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+ul {
+    font-size: 22px;
+    list-style: none;
+}
+
+.category {
+    display: flex;
+    justify-content: space-evenly;
+}
