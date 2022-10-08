@@ -1,10 +1,14 @@
 body {
-    background-image: url("expsssere2.png");
+    background-image: url("Captussssre.PNG");
     background-color: #646876;
     background-repeat: no-repeat;
     background-size: 700px 700px;
-    background-position: center;
+    background-position: bottom right;
     background-attachment: fixed;
+
+    color: beige;
+    filter: blur(100%);
+    
 }
 
 h1 {
