@@ -6,6 +6,10 @@ body {
     background-attachment: fixed;
 
     color: rgb(116, 218, 252);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 
 }
 
