@@ -5,12 +5,9 @@ body {
     background-position: bottom right;
     background-attachment: fixed;
 
-    color: rgb(116, 218, 252);
     height: 100vh;
     display: flex;
     flex-direction: column;
-
-
 }
 
 h1 {
@@ -25,6 +22,65 @@ ul {
     color: white;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.releases-card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    background-color:black;
+    padding: 16px;
+    margin: 0px;
+    width: 300px;
+    height: 150px;
+    justify-content: left;
+}
+
+.projects-card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    background-color:black;
+    padding: 16px;
+    margin: 0px;
+    width: 300px;
+    height: 150px;
+}
+
+.dates-card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    background-color:black;
+    padding: 16px;
+    margin: 0px;
+    width: 250px;
+    height: 150px;
+}
+
+.info-card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    background-color:black;
+    padding: 16px;
+    margin: 0px;
+    width: 300px;
+    height: 40px;
+    
+}
+
+.text {
+    color: white;
+}
+
 .category {
     display: flex;
     justify-content: space-evenly;
@@ -33,6 +89,7 @@ ul {
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    gap: 30px;
 
 }
 
